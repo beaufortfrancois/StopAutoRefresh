@@ -8,7 +8,7 @@ function parseMetas() {
 		meta = metas[i];
 		if(meta.getAttribute('http-equiv') != null
 		&&  meta.getAttribute('http-equiv').toLowerCase() == 'refresh') {
-			if (parseInt(meta.getAttribute('content')) > 15) {
+			if (parseInt(meta.getAttribute('content')) > 0) {
 				var object = new Object();
 				// metas[i].parentNode.removeChild(metas[i]);
 				object.url = document.URL;

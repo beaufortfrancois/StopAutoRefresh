@@ -1,6 +1,6 @@
 var blockers = new Object();
 // var stop_url_helper = "http://stopautorefresh.appspot.com/stop";
-var stop_url_helper = "http://www.meneame.net/stoprefresh.php";
+var stop_url_helper = "http://www.gstatic.com/generate_204";
 
 var callback = function(details) {
 	var now;
